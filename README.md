@@ -1,10 +1,13 @@
-# TNS Bot
+# Tutorial Bot
 
-Der Code des TNS Botes ist Uhrheber rechtlich geschützt und darf nicht so verwendet werden nur nach fragen an
-Discord: Jesper#1336 und du must mich als Creator Verlinken...
+Hier der Code aud den Videos
 
-Update Notes: https://gist.github.com/TNS-Jesper/f841fb7093963825d20e026829e3b6f5
+Installation:
 
-Bei fragen und infos Bitte DM auf Jesper#1336 auf discord wie oben...
+```
+> Nur npm i und dann mpm run dev zum starten.
+
+> ah und eine .env datei ertsellen und Tocken und so wie im Tutorial rein tun.
+```
 
 Das TNS Networks Team (©TNS 2021 - 2022 | Alle Rechte vorbehalten)
