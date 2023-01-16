@@ -4,7 +4,7 @@ const { Client, ActivityType } = require("discord.js");
 const { loadCommands } = require("../../loadCommands");
 
 // Status und on "Gehen"
-const message = ["mit dem Code.", "TNS Big Update | v.1.0.5 | /help"];
+const message = ["mit dem Code.", ""];
 let current = 0;
 
 module.exports = {
@@ -22,13 +22,11 @@ module.exports = {
       if (message[current]) {
         client.user.setActivity(message[0], {
           type: ActivityType.Playing,
-
         });
         current++;
       } else {
         client.user.setActivity(message[0], {
           type: ActivityType.Playing,
-
         });
 
         current = 0;

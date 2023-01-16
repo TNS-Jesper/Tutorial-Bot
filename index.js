@@ -1,6 +1,4 @@
-const { DisTube } = require("distube");
 const fs = require("fs");
-const { SpotifyPlugin } = require("@distube/spotify");
 const ascii = require("ascii-table");
 const { Collection } = require("discord.js"); //Von Discord.js Client und Collection importieren
 const { Client, Partials } = require("discord.js");
@@ -24,17 +22,6 @@ const client = new Client({
   intents: [131071],
 });
 
-client.distube = new DisTube(client, {
-  emitNewSongOnly: true,
-  leaveOnEmpty: true,
-  leaveOnFinish: false,
-  leaveOnStop: true,
-  emitAddSongWhenCreatingQueue: false,
-  plugins: [new SpotifyPlugin()],
-});
-
-module.exports = client;
-
 const collection = new Collection();
 
 //Collections
@@ -46,7 +33,7 @@ client.selectmenus = collection;
 
 client.voiceGenerator = collection;
 
-client.contact = "Bitte kontaktiere den Owner vom Bot: Jesper#2649.";
+client.contact = "Bitte kontaktiere den Owner vom Bot: Jesper#9999.";
 
 [
   "commands",
